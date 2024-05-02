@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body{
+    font-size: 12px;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: linear-gradient(to right bottom, #cf7916c2, #90a83ac7);
+    background-size: cover;
+    padding: 30px;
+}
+
+.card{
+    background-color: rgba(54, 18, 18, 0.473);
+    margin-left: 24%;
+    width: 50%;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+
+
+}
+.header{
+    background-color: rgba(48, 126, 150, 0.781);
+    padding-top: 20px;
+
+}
+
+.pic{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    margin-left: 200px;
+}
+
+.main{
+    padding: 20px;
+    background-color: rgba(48, 126, 150, 0.781);
+    text-align: center;
+}
+
+h2{
+    font-size: 25px;
+    font-weight: 800;
+    padding: 10px;
+}
+
+h3{
+    font-size: 17px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+p{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+}
+
+hr{
+    border: none;
+    width: 100%;
+    border-top: 2px solid black;
+    margin: 20px 0;
+}
+
+.footer{
+    background-color: rgb(4, 46, 66);
+    padding: 20px;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.box{
+    margin-right: 15px;
+}
+
+.name{
+    display: flex;
+    justify-content: space-between;
+    border: none;
+}
+
+.by{
+    text-decoration: none;
+    color: black;
+}
